@@ -16,7 +16,7 @@
 <body>
 	<div id="map" style="width: 800px; height: 600px"></div>
 
-	<script src="places.geojson" type="text/javascript"></script>
+	<script src="sites.geojson" type="text/javascript"></script>
 
 	<script src="js/leaflet.js"></script>
 	<script src="js/jquery-2.1.3.min.js"></script>
@@ -37,17 +37,17 @@
 		/* popup content */
 
 		function onEachFeature(feature, layer) {
-			var popupContent = feature.properties.Town;
+			var popupContent = "<p>" + feature.properties.Name + "</p>"
 
-			if (feature.properties && feature.properties.popupContent) {
-				popupContent += feature.properties.popupContent;
+			if (feature.properties && feature.properties.Species) {
+				popupContent += feature.properties.Species;
 			}
 
 			layer.bindPopup(popupContent);
 		}
 
 
-				L.geoJson(place, {
+				L.geoJson(sites, {
 
 			style: function (feature) {
 				return feature.properties && feature.properties.style;
