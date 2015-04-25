@@ -1,0 +1,98 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Penn Cove Mussel Farm",
+        "Type": "Farm",
+        "Species": "Mussels"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69342422485352,
+          48.22249971090849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Olympic National Park",
+        "Type": "Fieldsite",
+        "Species": "Mussels"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.65723037719727,
+          47.94498156566505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Friday Harbor",
+        "Type": "Research Lab",
+        "Species": "Mussels"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.01219940185548,
+          48.54593277868612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Palermo, Italy",
+        "Type": "Research Lab",
+        "Species": "Algae"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.39508056640625,
+          38.12591462924157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Florida",
+        "Type": "Field work",
+        "Species": "Corals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.73803710937499,
+          28.738763971370293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "Bowdoin Coastal Studies Center",
+        "Type": "Research Lab",
+        "Species": "Corals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.9575686454773,
+          43.78858487180592
+        ]
+      }
+    }
+  ]
+}
