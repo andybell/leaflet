@@ -1,0 +1,82 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Town": "Seattle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32177734375,
+          47.65058757118734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#10ed42",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Town": "Davis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.75872802734375,
+          38.543869175876154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#a99254",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Town": "Nevada City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.01303100585938,
+          39.27266344858914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0080c0",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Town": "Diamond Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.81257629394531,
+          34.02477865123825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0080c0",
+        "marker-size": "medium",
+        "marker-symbol": "school",
+        "Town": "Brunswick"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.94445800781249,
+          43.92163712834673
+        ]
+      }
+    }
+  ]
+}
